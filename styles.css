@@ -1,0 +1,104 @@
+body {
+
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    
+  }
+.visually-hidden
+/* Top right text */
+.main-title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+  }
+
+  .textos-header{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    right: 50%;
+  }
+
+  .btn1{
+        display: block;
+        width: 350px;
+        height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        background-color: red;
+        border-radius: 20px;
+        padding: 30px 30px;
+        margin: 5% 20%;
+        color: yellow;
+        text-decoration: none;
+                
+  }  
+  
+  .btn1:hover{
+        background-color: rgb(207, 120, 120);
+        border: 2px solid red;
+        color: yellow;
+  }
+    
+  .btn2{
+    display: block;
+    width: 350px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: 8% 20%;
+    color: green;
+    text-decoration: none;
+  }
+
+  .btn2:hover{
+    background-color: rgb(93, 93, 218);
+    border: 2px solid blue;
+    color: green;
+}
+
+.select-gen{
+  position: relative;
+}
+
+.select-gen ul{
+  position: relative;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.5s ;
+  display: block;
+}
+
+.select-gen:hover ul{
+  max-height: 400px;
+}
+
+.calcu-title{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  right: 50%;
+}
+
+.index{
+  display: block;
+  width: 30px;
+  height: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background-color: red;
+  border-radius: 20px;
+  padding: 30px 30px;;
+  color: white;
+  text-decoration: none;
+}
