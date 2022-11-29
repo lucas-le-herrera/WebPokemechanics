@@ -4,7 +4,7 @@ body {
 
 /* Container holding the image and the text */
 .container {
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     font-size: 100px;
     color: white;
@@ -90,6 +90,47 @@ body {
   right: 50%;
 }
 
+<<<<<<< Updated upstream
+=======
+.johto{
+  display: block;
+  width: 220px;
+  height: 30px;
+  background-color: yellow;
+  border: 2px solid  green;
+}
+.hoenn{
+  display: block;
+  width: 220px;
+  height: 30px;
+  background-color: yellow;
+  border: 2px solid  green;
+}
+.sinnoh{
+  display: block;
+  width: 220px;
+  height: 30px;
+  background-color: yellow;
+  border: 2px solid  green;
+}
+
+
+#kanto-section{
+  /*display: none;*/
+}
+
+#kanto-pkm{
+  display: none;
+}
+
+#kanto-section:checked ~ #kanto-pkm{
+  display: block;
+  width: 900px;
+}
+
+
+/*Volver al inicio*/
+>>>>>>> Stashed changes
 .index{
   display: block;
   width: 30px;
@@ -101,4 +142,35 @@ body {
   padding: 30px 30px;;
   color: white;
   text-decoration: none;
+}
+
+/*Datos pokemon*/
+
+.best-pk-title{
+  font-size:35px;
+  color:red;
+}
+
+.clarification ul{
+  font-size: 20px;
+  color: black;
+}
+
+#strong-type{
+  display: inline-block;
+  vertical-align: top;
+  color: red;
+  font-size: 50px;
+}
+
+#other-type{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+}
+
+#stats{
+  display:inline-block;
+  font-size: 40px;
+  color: blue;
 }
