@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<section class="offcanvas-top">
+<html>
+<head>
+    <title>Best Pokémon</title>
+    <link rel="shortcut icon" href="ultraball.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+      <a class="index" href="index.html">Volver al inicio</a>
+    </nav>
+    <div class="container">
+        <div class="title">Best Pokémon</div>
+    </div>
+
+        <style>
+          body {
+            background-image: url('pika-eeve.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+          }
+        </style>
+
+    <div class="select-gen">Choose a region:</div>
+      <ul class="regions">
+        <input type="checkbox" id="kanto-section">
+          <label for="kanto-section">Kanto (1st generation)</label>
+          <div id="kanto-pkm">
+            <div class="best-pk-title">
+              <p>These are the best Pokemon of Kanto, based on their total stats (Legendaries are not included)</p>
+            </div>
+            <div class="clarifiaction">
+              <p>- Pokemon types in red refers to the type in which that Pokemon has the best total stats</p>
+              <p>- Pokemon types in black refers to the other type that the Pokemon has, but does not represent the Pokemon with the best total stats</p>
+              <p>- If you touch the Pokemon sprite, you will be redirected to its Wikidex</p>
+            </div>
+
+                <div class="pkm-sprites">
+                  <a href="https://www.wikidex.net/wiki/Gyarados"target="_blank">
+                    <img src="https://play.pokemonshowdown.com/sprites/gen5/gyarados.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                </div>
+                <br>
+                  <a href="https://www.wikidex.net/wiki/Pinsir"target="_blank">
+                   <img src="https://play.pokemonshowdown.com/sprites/gen5/pinsir.png" width="200px"></a>
+                    <p id="strong-type">Bug</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                    <a href="https://www.wikidex.net/wiki/Dragonite"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/dragonite.png" width="200px"></a> 
+                    <p id="strong-type">Dragon</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 600</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Jolteon"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/jolteon.png" width="200px"></a>
+                    <p id="strong-type">Electric</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Gengar"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/gengar.png" width="200px"></a>
+                    <p id="strong-type">Ghost</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Arcanine"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/arcanine.png" width="200px"></a>    
+                    <p id="strong-type">Fire</p>
+                    <!--<p id="other-type">&nbsp&nbsp></p>-->
+                    <p id="stats">Total stats: 555</p>
+                    <br>
+                    <a href="https://www.wikidex.net/wiki/lapras"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/lapras.png" width="200px"></a>
+                    <p id="other-type">Water</p>
+                    <p id="strong-type">&nbsp&nbspIce</p>
+                    <p id="stats">Total stats: 535</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/poliwrath"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/poliwrath.png" width="200px"></a>
+                    <p id="other-type">Water</p>
+                    <p id="strong-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/snorlax"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/snorlax.png" width="200px"></a>
+                    <p id="strong-type">Normal</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Venusaur"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/venusaur.png" width="200px"></a>  
+                    <p id="strong-type">Grass</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/alakazam"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/alakazam.png" width="200px"></a>
+                    <p id="strong-type">Psychic</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/aerodactyl"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/aerodactyl.png" width="200px"></a>
+                    <p id="strong-type">Rock</p>
+                    <p id="strong-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 515</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/nidoqueen"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/nidoqueen.png" width="200px"></a>    
+                    <p id="strong-type">Poison</p>
+                    <p id="strong-type">&nbsp&nbspGround</p>
+                    <p id="stats">Total stats: 540</p>
+                
+                </div>
+                </div>
+                <br>
+        <input type="checkbox" id="johto-section">
+          <label for="johto-section">Johto (2nd generation)</label>
+          <div id="johto-pkm">
+            <div class="best-pk-title">
+              <p>These are the best Pokemon of Kanto, based on their total stats (Legendaries are not included)</p>
+            </div>
+            <div class="clarifiaction">
+              <p>- Pokemon types in red refers to the type in which that Pokemon has the best total stats</p>
+              <p>- Pokemon types in black refers to the other type that the Pokemon has, but does not represent the Pokemon with the best total stats</p>
+              <p>- If you touch the Pokemon sprite, you will be redirected to its Wikidex</p>
+            </div>
+
+                <div class="pkm-sprites">
+                  <a href="https://www.wikidex.net/wiki/steelix"target="_blank">
+                    <img src="https://play.pokemonshowdown.com/sprites/gen5/steelix.png" width="200px"></a>
+                    <p id="strong-type">Steel</p>
+                    <p id="other-type">&nbsp&nbspGround</p>
+                    <p id="stats">Total stats: 510</p>
+                </div>
+                <br>
+                  <a href="https://www.wikidex.net/wiki/kingdra"target="_blank">
+                   <img src="https://play.pokemonshowdown.com/sprites/gen5/kingdra.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="strong-type">&nbsp&nbspDragon</p>
+                    <p id="stats">Total stats: 540</p>
+                    <br>
+                  <a href="https://www.wikidex.net/wiki/forretress"target="_blank">
+                   <img src="https://play.pokemonshowdown.com/sprites/gen5/forretress.png" width="200px"></a>
+                    <p id="strong-type">Bug</p>
+                    <p id="other-type">&nbsp&nbspSteel</p>
+                    <p id="stats">Total stats: 465</p>
+                <br>
+                    <a href="https://www.wikidex.net/wiki/ampharos"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/ampharos.png" width="200px"></a> 
+                    <p id="strong-type">Electric</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/misdreavus"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/misdreavus.png" width="200px"></a>
+                    <p id="strong-type">Ghost</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 435</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/typhlosion"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/typhlosion.png" width="200px"></a>
+                    <p id="strong-type">Fire</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 534</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/piloswine"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/piloswine.png" width="200px"></a>    
+                    <p id="strong-type">Ice</p>
+                    <p id="other-type">&nbsp&nbspGround</p>
+                    <p id="stats">Total stats: 450</p>
+                    <br>
+                    <a href="https://www.wikidex.net/wiki/heracross"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/heracross.png" width="200px"></a>
+                    <p id="other-type">Bug</p>
+                    <p id="strong-type">&nbsp&nbspFight</p>
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/blissey"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/blissey.png" width="200px"></a>
+                    <p id="strong-type">Normal</p>
+                    <!--<p id="other-type">&nbsp&nbspFlying</p>-->
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/meganium"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/meganium.png" width="200px"></a>
+                    <p id="strong-type">Grass</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/espeon"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/espeon.png" width="200px"></a>  
+                    <p id="strong-type">Psychic</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/tyranitar"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/tyranitar.png" width="200px"></a>
+                    <p id="strong-type">Rock</p>
+                    <p id="strong-type">&nbsp&nbspDark</p>
+                    <p id="stats">Total stats: 600</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/donphan"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/donphan.png" width="200px"></a>
+                    <p id="strong-type">Ground</p>
+                    <!--<p id="strong-type">&nbsp&nbspFlying</p>--> 
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/crobat"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/crobat.png" width="200px"></a>    
+                    <p id="strong-type">Poison</p>
+                    <p id="strong-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 535</p>
+                
+                </div>
+                </div>
+                <br>
+        <input type="checkbox" id="hoenn-section">
+          <label for="hoenn-section">Hoenn (3rd generation)</label>
+          <div id="kanto-pkm">
+            <div class="best-pk-title">
+              <p>These are the best Pokemon of Kanto, based on their total stats (Legendaries are not included)</p>
+            </div>
+            <div class="clarifiaction">
+              <p>- Pokemon types in red refers to the type in which that Pokemon has the best total stats</p>
+              <p>- Pokemon types in black refers to the other type that the Pokemon has, but does not represent the Pokemon with the best total stats</p>
+              <p>- If you touch the Pokemon sprite, you will be redirected to its Wikidex</p>
+            </div>
+
+                <div class="pkm-sprites">
+                  <a href="https://www.wikidex.net/wiki/Gyarados"target="_blank">
+                    <img src="https://play.pokemonshowdown.com/sprites/gen5/gyarados.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                </div>
+                <br>
+                  <a href="https://www.wikidex.net/wiki/Pinsir"target="_blank">
+                   <img src="https://play.pokemonshowdown.com/sprites/gen5/pinsir.png" width="200px"></a>
+                    <p id="strong-type">Bug</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                    <a href="https://www.wikidex.net/wiki/Dragonite"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/dragonite.png" width="200px"></a> 
+                    <p id="strong-type">Dragon</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 600</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Jolteon"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/jolteon.png" width="200px"></a>
+                    <p id="strong-type">Electric</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Gengar"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/gengar.png" width="200px"></a>
+                    <p id="strong-type">Ghost</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Arcanine"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/arcanine.png" width="200px"></a>    
+                    <p id="strong-type">Fire</p>
+                    <!--<p id="other-type">&nbsp&nbsp></p>-->
+                    <p id="stats">Total stats: 555</p>
+                    <br>
+                    <a href="https://www.wikidex.net/wiki/lapras"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/lapras.png" width="200px"></a>
+                    <p id="other-type">Water</p>
+                    <p id="strong-type">&nbsp&nbspIce</p>
+                    <p id="stats">Total stats: 535</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/poliwrath"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/poliwrath.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/snorlax"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/snorlax.png" width="200px"></a>
+                    <p id="strong-type">Normal</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Venusaur"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/venusaur.png" width="200px"></a>  
+                    <p id="strong-type">Grass</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/alakazam"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/alakazam.png" width="200px"></a>
+                    <p id="strong-type">Psychic</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/aerodactyl"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/aerodactyl.png" width="200px"></a>
+                    <p id="strong-type">Rock</p>
+                    <p id="strong-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 515</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/nidoqueen"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/nidoqueen.png" width="200px"></a>    
+                    <p id="strong-type">Poison</p>
+                    <p id="strong-type">&nbsp&nbspGround</p>
+                    <p id="stats">Total stats: 540</p>
+                
+                </div>
+                </div>
+                <br>
+        <input type="checkbox" id="sinnoh-section">
+          <label for="sinnoh-section">Sinnoh (4th generation)</label>
+          <div id="kanto-pkm">
+            <div class="best-pk-title">
+              <p>These are the best Pokemon of Kanto, based on their total stats (Legendaries are not included)</p>
+            </div>
+            <div class="clarifiaction">
+              <p>- Pokemon types in red refers to the type in which that Pokemon has the best total stats</p>
+              <p>- Pokemon types in black refers to the other type that the Pokemon has, but does not represent the Pokemon with the best total stats</p>
+              <p>- If you touch the Pokemon sprite, you will be redirected to its Wikidex</p>
+            </div>
+
+                <div class="pkm-sprites">
+                  <a href="https://www.wikidex.net/wiki/Gyarados"target="_blank">
+                    <img src="https://play.pokemonshowdown.com/sprites/gen5/gyarados.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                </div>
+                <br>
+                  <a href="https://www.wikidex.net/wiki/Pinsir"target="_blank">
+                   <img src="https://play.pokemonshowdown.com/sprites/gen5/pinsir.png" width="200px"></a>
+                    <p id="strong-type">Bug</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                    <a href="https://www.wikidex.net/wiki/Dragonite"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/dragonite.png" width="200px"></a> 
+                    <p id="strong-type">Dragon</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 600</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Jolteon"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/jolteon.png" width="200px"></a>
+                    <p id="strong-type">Electric</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Gengar"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/gengar.png" width="200px"></a>
+                    <p id="strong-type">Ghost</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Arcanine"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/arcanine.png" width="200px"></a>    
+                    <p id="strong-type">Fire</p>
+                    <!--<p id="other-type">&nbsp&nbsp></p>-->
+                    <p id="stats">Total stats: 555</p>
+                    <br>
+                    <a href="https://www.wikidex.net/wiki/lapras"target="_blank">
+                      <img src="https://play.pokemonshowdown.com/sprites/gen5/lapras.png" width="200px"></a>
+                    <p id="other-type">Water</p>
+                    <p id="strong-type">&nbsp&nbspIce</p>
+                    <p id="stats">Total stats: 535</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/poliwrath"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/poliwrath.png" width="200px"></a>
+                    <p id="strong-type">Water</p>
+                    <p id="other-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/snorlax"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/snorlax.png" width="200px"></a>
+                    <p id="strong-type">Normal</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 540</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/Venusaur"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/venusaur.png" width="200px"></a>  
+                    <p id="strong-type">Grass</p>
+                    <p id="other-type">&nbsp&nbspPoison</p>
+                    <p id="stats">Total stats: 525</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/alakazam"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/alakazam.png" width="200px"></a>
+                    <p id="strong-type">Psychic</p>
+                    <!--<p id="other-type">&nbsp&nbsp</p>-->
+                    <p id="stats">Total stats: 500</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/aerodactyl"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/aerodactyl.png" width="200px"></a>
+                    <p id="strong-type">Rock</p>
+                    <p id="strong-type">&nbsp&nbspFlying</p>
+                    <p id="stats">Total stats: 515</p>
+                <br>
+                <a href="https://www.wikidex.net/wiki/nidoqueen"target="_blank">
+                  <img src="https://play.pokemonshowdown.com/sprites/gen5/nidoqueen.png" width="200px"></a>    
+                    <p id="strong-type">Poison</p>
+                    <p id="strong-type">&nbsp&nbspGround</p>
+                    <p id="stats">Total stats: 540</p>
+                
+                </div>
+                </div>
+                <br>
+
+      </ul>
+    
+
+        
+</body>
+</html>
