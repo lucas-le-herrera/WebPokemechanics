@@ -82,58 +82,61 @@ body {
 
 .select-gen{
   position: relative;
+  font-size: 50px;
 }
 
-.select-gen ul{
+.regions ul{
   position: relative;
   max-height: 0px;
   overflow: hidden;
   transition: 0.5s ;
-
-}
-
-.select-gen:hover ul{
-  max-height: 400px;
   display: block;
-  
-  
-}
-
-.kanto{
-  display: block;
-  width: 220px;
-  height: 30px;
   background-color: yellow;
-  border: 2px solid  green;  
 }
 
-.best-kanto{
-  
+
+/*Kanto*/
+
+#kanto-pkm{
+  display: none;
 }
 
-.johto{
+#kanto-section:checked ~ #kanto-pkm{
   display: block;
-  width: 220px;
-  height: 30px;
-  background-color: yellow;
-  border: 2px solid  green;
-}
-.hoenn{
-  display: block;
-  width: 220px;
-  height: 30px;
-  background-color: yellow;
-  border: 2px solid  green;
-}
-.sinnoh{
-  display: block;
-  width: 220px;
-  height: 30px;
-  background-color: yellow;
-  border: 2px solid  green;
 }
 
-  
+/*Johto*/
+
+#johto-pkm{
+  display: none;
+}
+
+#johto-section:checked ~ #johto-pkm{
+  display: block;
+}
+
+
+/*Pkm types*/
+
+#strong-type{
+  color: red;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+}
+
+#other-type{
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+}
+
+#stats{
+  color: blue;
+  display: inline-block;
+  font-size: 35px;
+}
 
 
 .index{
