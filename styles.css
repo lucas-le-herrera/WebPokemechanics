@@ -53,18 +53,18 @@ body {
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    background-color: blue;
+    background-color: orange;
     border-radius: 20px;
     padding: 30px 30px;
-    margin: 8% 20%;
-    color: green;
+    margin: 1% 20%;
+    color: red;
     text-decoration: none;
   }
 
   .btn2:hover{
-    background-color: rgb(93, 93, 218);
-    border: 2px solid blue;
-    color: green;
+    background-color: rgb(255, 205, 112);
+    border: 2px solid orange;
+    color: red;
 }
 
 .dropdown-toggle{
@@ -115,6 +115,26 @@ body {
   display: block;
 }
 
+/*Hoenn*/
+
+#hoenn-pkm{
+  display: none;
+}
+
+#hoenn-section:checked ~ #hoenn-pkm{
+  display: block;
+}
+
+/*Sinnoh*/
+
+#sinnoh-pkm{
+  display: none;
+}
+
+#sinnoh-section:checked ~ #sinnoh-pkm{
+  display: block;
+}
+
 
 /*Pkm types*/
 
@@ -138,6 +158,19 @@ body {
   font-size: 35px;
 }
 
+/*Title and clarification*/
+
+.best-pk-title{
+  width: 900px;
+  font-size: 40px;
+  text-decoration:underline;
+}
+
+.clarification{
+  width: 900px;
+  font-size: 25px;
+}
+
 
 .index{
   display: block;
@@ -150,3 +183,33 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/*calculator*/
+
+
+.calcular{
+  display: block;
+  width: 400px ;
+  height: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  background-color: aqua;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 2px solid blue;
+  color: black;
+}
+
+.touch{
+  display: block;
+  width: 400px ;
+  height: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  background-color: aqua;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 2px solid blue;
+  color: black;
+}
+
